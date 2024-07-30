@@ -26,7 +26,7 @@ def handler(event, context):
 
     # Send email
     ses.send_email(
-        Source='your-verified-email@example.com',
+        Source='wavillavicencio@utpl.edu.ec',
         Destination={'ToAddresses': [account['correoelectronico']]},
         Message={
             'Subject': {'Data': 'Retiro realizado'},
