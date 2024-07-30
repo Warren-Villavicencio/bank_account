@@ -45,7 +45,7 @@ jobs:
       uses: schneegans/dynamic-badges-action@v1.6.0
       with:
         auth: ${{ secrets.GIST_SECRET }}
-        gistID: <tu-gist-id>  # Reemplaza esto con el ID de tu Gist
+        gistID: gist:e94211509b0a281a9ebc0b887211df80 # Reemplaza esto con el ID de tu Gist
         filename: commit-count.json
         label: Commits
         message: ${{ env.COMMIT_COUNT }}
