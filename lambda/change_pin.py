@@ -32,7 +32,7 @@ def handler(event, context):
 
         # Enviar correo electrónico
         ses.send_email(
-            Source='your-verified-email@example.com',
+            Source='wavillavicencio@utpl.edu.ec',
             Destination={'ToAddresses': [updated_account['correoelectronico']]},
             Message={
                 'Subject': {'Data': 'Cambio de PIN realizado'},
