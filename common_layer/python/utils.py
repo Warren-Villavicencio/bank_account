@@ -8,7 +8,7 @@ def get_dynamodb_table():
 def send_email(to_address, subject, body):
     ses = boto3.client('ses')
     ses.send_email(
-        Source='your-verified-email@example.com',
+        Source='wavillavicencio@utpl.edu.ec',
         Destination={'ToAddresses': [to_address]},
         Message={
             'Subject': {'Data': subject},
